@@ -1,4 +1,10 @@
-venv/
+# Ignore local environment
+.venv/
+__pycache__/
+.python-version
+
+# Lock files (optional, depending on workflow)
 .env
 
-__pycache__/
+# Byte-compiled / cache
+*.pyc
